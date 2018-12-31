@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  display: flex;
+}
+#app {
+  display: flex;
+}
+.login-modal {
+  display: flex;
+  flex: 1;
+  .login-form {
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    form {
+      display: flex;
+      flex-direction: column;
+      input[type="text"] {
+        padding: 10px;
+        font-size: 13px;
+        border: solid 1px #cecece;
+        border-radius: 8px;
+      }
+      button {
+        background-color: #28acc3;
+        padding: 10px;
+        font-size: 13px;
+      }
+    }
+    .footer {
+      font-size: 10px;
+    }
+  }
+  .login-splash {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    img {
+      max-width: 100%;
+    }
+  }
+}
